@@ -87,7 +87,7 @@ function selectChoise(){
         }
        else  if(you == 'paper'){
             if(computer == 'rock'){
-                computerScore +=1;
+                yourScore +=1;
             }
             else if(computer == 'scissors'){
                 computerScore +=1;

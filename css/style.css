@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.back_color {
+  background-color: #f6f7f8;
+}
+
+.row1 {
+  height: 50px;
+}
+
+.header-top .top-left a {
+  margin-right: 15px;
+  font-size: 15px;
+}
+.header-top .top-left a:hover {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+.header-top .karyera {
+  border: 1.5px solid #0056c1;
+  border-radius: 40px;
+  color: #0056c1 !important;
+  display: inline-block;
+  font-weight: 500;
+  padding: 6px 12px;
+  transition: 0.5s;
+}
+.header-top .karyera:hover {
+  background-color: #0056c1;
+  color: #fff !important;
+}
+
+.h-right span {
+  margin-left: 15px;
+  cursor: pointer;
+}
+.h-right span i {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.header-middle .middle-left img {
+  width: 10%;
+}
+.header-middle .middle-left a {
+  margin-left: 30px;
+  padding-top: 10px;
+}
+.header-middle .middle-right a {
+  color: #0056c1;
+}
+.header-middle .middle-right .icon-internet-banking {
+  background-image: url("https://abb-bank.az/img/icons/internet-banking-signin.svg");
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-bottom {
+  padding-top: 25px;
+}
+.header-bottom nav li {
+  margin-right: 15px;
+}
+
+#header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+  margin: auto;
+}
+
+.images {
+  justify-content: center;
+  cursor: pointer;
+}
+.images img {
+  margin-right: 60px;
+}
+
+#opponent-choice {
+  width: 216px;
+  margin-left: 50px;
+}
+
+.box {
+  width: 33%;
+  border: 1px solid rgb(61, 60, 60);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: rgb(212, 212, 212);
+}/*# sourceMappingURL=style.css.map */

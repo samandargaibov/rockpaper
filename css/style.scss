@@ -108,18 +108,22 @@ body{
     width: 33%;
     margin: auto;
 }
-.images{
+#show{
     justify-content: center;
-    cursor: pointer;
+   
     img{
         margin-right: 60px;
+        cursor: pointer;
     }
 }
 #opponent-choice{
     width: 216px;
     margin-left: 50px;
 }
-
+.center{
+    width: 50%;
+    margin: auto;
+}
 
 .box{
     width: 33%;

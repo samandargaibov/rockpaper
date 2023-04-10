@@ -107,6 +107,18 @@ li {
   margin: auto;
 }
 
+#inp1 {
+  height: 120px;
+  position: absolute;
+}
+
+.lang {
+  position: absolute;
+  display: grid;
+  background-color: antiquewhite;
+  margin-left: -15px;
+}
+
 .box {
   width: 33%;
   border: 1px solid rgb(61, 60, 60);

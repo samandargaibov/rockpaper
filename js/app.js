@@ -33,9 +33,6 @@
 // }
 
 
-
-
-
 // function CheckTask(){
 //     let count = document.querySelectorAll('.box').length;
 //     let alert = document.querySelector('.alert');
@@ -149,3 +146,31 @@ let reload = document.querySelector('#reload');
 reload.onclick = function(){
     location.reload();
 }
+
+// let down = document.querySelector('#down');
+// let lang = document.querySelector('.lang');
+
+// down.onclick = function () {
+    
+//     if(lang.className.match('d-none')){
+//         lang.className = 'lang d-block';
+//         down.style.transform = 'rotate(180deg)';
+//     }
+//     else{
+//         lang.className = 'lang d-none'
+//         down.style.transform = 'rotate(0deg)';
+//     }
+// }
+
+// let axtar = document.querySelector('.axtar');
+// let inp1 = document.querySelector('#inp1');
+
+
+// axtar.addEventListener('click',(e) =>{
+//     if(inp1.className.match('d-none')){
+//         inp1.className = 'form-control d-block';
+//     }
+//     else{
+//         inp1.className ='form-control d-none';
+//     }
+// })

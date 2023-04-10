@@ -124,6 +124,16 @@ body{
     width: 50%;
     margin: auto;
 }
+#inp1{
+    height: 120px;
+    position: absolute;
+}
+.lang{
+    position: absolute;
+    display: grid;
+    background-color: antiquewhite;
+    margin-left: -15px;
+}
 
 .box{
     width: 33%;

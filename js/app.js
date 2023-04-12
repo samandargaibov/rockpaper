@@ -6,45 +6,43 @@
 //     let div = document.createElement('div');
 //     let h2 = document.createElement('h2');
 //     let button = document.createElement('button');
-//     let h3 = document.querySelector('#btnn');
 
 //     h2.innerHTML = inp;
 //     button.innerHTML = 'Delete';
 //     button.className = 'btn1 btn btn-danger'
 
-//     let btn1 = document.querySelector('.btn1');
-    
 //     div.className = 'box d-flex justify-content-between'
-
-//     div.appendChild(h2);
-//     div.appendChild(button);
+    
+//     div.append(h2,button);
 //     document.querySelector('.tasks').appendChild(div);
-
-//     document.getElementsByClassName('btn1').onclick = function () {
-//         div.className = 'd-none';
-//        }
     
-//     CheckTask()
-
-//     btn1.onclick = function(){
-//         div.className = 'd-none'
+//     let buttons = document.querySelectorAll('.btn1');
+    
+    
+//     for(const button of buttons){
+//         button.onclick = function () {
+//             this.parentElement.className="d-none";
+            
+//         }
 //     }
+//     CheckTask();
+    
     
 // }
 
 
-// function CheckTask(){
-//     let count = document.querySelectorAll('.box').length;
-//     let alert = document.querySelector('.alert');
+function CheckTask(){
+    let count = document.querySelectorAll('.box').length;
+    let alert = document.querySelector('.alert');
 
-//     if(count > 0){
-//         alert.style.display= 'none';
-//     }
-//     else{
-//         alert.style.display= 'block';
-//     }
+    if(count > 0){
+        alert.style.display= 'none';
+    }
+    else{
+        alert.style.display= 'block';
+    }
 
-// }
+}
 
 let you;
 let yourScore = 0;
